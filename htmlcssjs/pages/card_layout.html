@@ -1,0 +1,81 @@
+<!doctype html>
+<title>Card Layout</title>
+<style>
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction:column;
+    max-height: 200vh;  
+  }
+  .card {
+    width: 200px;
+    margin: 100px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  } 
+  .card img {
+    max-width: 100%;
+  }
+  .card .text {
+    padding: 0 20px 20px;
+  }
+  .card .text > button {
+    background: gray;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    }
+</style>
+<main class="cards">
+  <article class="card">
+    <img src="../assets/starry_night_full.jpg" alt="Sample photo">
+    <div class="text">
+      <h3>Starry Night</h3>
+      <p>Vincent van Gogh painted Starry Night in 1889 during his stay at the asylum of Saint-Paul-de-Mausole near Saint-Rémy-de-Provence.</p>
+      <button>Read more</button>
+    </div>
+  </article>
+  <article class="card">
+    <img src="../assets/vincent_van_gogh.jpg" alt="Sample photo">
+    <div class="text">
+      <h3>Van Gogh Self Portrait</h3>
+      <p>Dutch Post-Impressionist artist Vincent van Gogh painted a self-portrait in oil on canvas in September 1889.</p>
+      <button>Read more</button>
+    </div>
+  </article>
+  <article class="card">
+    <img src="../assets/cafe_full.jpeg" alt="Sample photo">
+    <div class="text">
+      <h3>Night Café</h3>
+      <p>Night Café by Van Gogh was painted in September 1888 while he was living in Arles.
+      Earlier in the year he had moved to a room at the Café de la Gare, where the room depicted in this painting was.</p>
+      <button>Read more</button>
+    </div>
+  </article>
+  <article class="card">
+    <img src="../assets/mulberry_full.jpg" alt="Sample photo">
+    <div class="text">
+      <h3>The Mulberry Tree</h3>
+      <p>Van Gogh painted The Mulberry Tree in October of 1889 less than a year before he would die.</p>
+      <button>Read more</button>
+    </div>
+  </article>
+  <article class="card">
+    <img src="../assets/bedroom_full.jpeg" alt="Sample photo">
+    <div class="text">
+      <h3>The Bedroom</h3>
+      <p>In the winter of 1888, Van Gogh traveled to a town in the south of France called Arles.This is the painting of his bedroom in a hotel.</p>
+      <button>Read more</button>
+    </div>
+  </article>
+  <article class="card">
+    <img src="../assets/persistence_of_memory.jpg" alt="Sample photo">
+    <div class="text">
+      <h3>The Persistence of Memory</h3>
+      <p>The Persistence of Memory is a 1931 painting by artist Salvador Dalí and one of the most recognizable works of Surrealism.</p>
+      <button>Read more</button>
+    </div>
+  </article>
+</main>

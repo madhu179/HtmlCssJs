@@ -1,0 +1,38 @@
+<!doctype html>
+<title>Media Object Layout</title>
+<style>
+  .media {
+    display: flex;
+    align-items: flex-start;
+    background: #F6F3EB;
+    padding: 1em;
+    border-radius: 3px;
+    max-width: 48em;
+  }
+  .media-object {
+    margin-right: 1em;
+    max-width: 24em;
+  }
+  .media-body {
+    flex: 1;
+  }
+  .media-heading {
+    margin: 0 0 .5em;
+  }
+</style>
+<div class="media">
+<img class="media-object" src="../assets/starry_night_full.jpg" alt="Sample photo">
+  <div class="media-body">
+    <h3 class="media-heading">Starry Night</h3>
+    <p>The Starry Night is an oil on canvas painting by van gogh.It depicts the view from the east-facing window of his asylum room at Saint-Rémy-de-Provence, just before sunrise, with the addition of an imaginary village.</p>
+
+    <div class="media">
+      <img class="media-object" src="../assets/vincent_van_gogh.jpg" alt="Sample photo">
+      <div class="media-body">
+        <h3 class="media-heading">Vincent Van Gogh</h3>
+        <p>Vincent Willem van Gogh was a Dutch post-impressionist painter who is among the most famous and influential figures in the history of Western art. </p>
+      </div>
+    </div>
+
+  </div>
+</div>

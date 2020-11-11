@@ -17,7 +17,6 @@
         <div>
             <label for="pwd">password input type:</label>
             <input type="password" id="pwd" name="pwd">
-            <error-output class="pwd-error" for="pwd"></error-output>
         </div>
         <div>
             <label for="email">email input type:</label>
@@ -65,16 +64,6 @@
           textError.textContent = "";
           else
           textError.textContent = "Name is incorrect";
-          });
-
-          const pwd = document.querySelector('#pwd');
-          const pwdError = document.querySelector('.pwd-error');
-          pwd.addEventListener('input',function(){
-          let pwdRegex = RegExp('^[a-zA-Z]{8,}$');
-          if(pwdRegex.test(pwd.value))
-          pwdError.textContent = "";
-          else
-          pwdError.textContent = "Password format is incorrect";
           });
 
           const email = document.querySelector('#email');

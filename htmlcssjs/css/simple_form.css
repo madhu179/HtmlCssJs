@@ -1,3 +1,4 @@
+@media (min-device-width: 700px){
 html, input{
     font-family: sans-serif;
 }
@@ -53,4 +54,5 @@ error-output{
     font-size: 12px;
     font-style: italic;
     color: red;
+}
 }
